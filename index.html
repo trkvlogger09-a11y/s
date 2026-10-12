@@ -1,9 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="hi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUEEN ARMY ⚜️</title>
+
+    <title>PAYAL ARMY ⚜️</title>
+    <meta name="theme-color" content="#050204">
+    <meta name="description" content="PAYAL ARMY Official Telegram Channel">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,369 +15,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        body {
-            background: #050204;
-            background-image:
-                radial-gradient(circle at 50% 25%, rgba(255, 0, 60, 0.18) 0%, transparent 60%),
-                radial-gradient(circle at 50% 85%, rgba(100, 0, 25, 0.12) 0%, transparent 50%);
-            color: #ffffff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        /* Premium Glass Card */
-        .card {
-            background: rgba(18, 10, 18, 0.92);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 0, 60, 0.25);
-            border-radius: 32px;
-            width: 100%;
-            max-width: 380px;
-            padding: 35px 24px 28px;
-            text-align: center;
-            box-shadow:
-                0 25px 60px rgba(0, 0, 0, 0.95),
-                0 0 35px rgba(255, 0, 60, 0.15),
-                inset 0 1px 1px rgba(255, 255, 255, 0.15);
-            position: relative;
-            overflow: hidden;
-        }
-
-        /* Neon Top Line */
-        .card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 15%;
-            right: 15%;
-            height: 2px;
-            background: linear-gradient(
-                90deg,
-                transparent,
-                #ff003c,
-                #ff4d73,
-                #ff003c,
-                transparent
-            );
-        }
-
-        /* Profile Image Rings */
-        .profile-container {
-            position: relative;
-            width: 145px;
-            height: 145px;
-            margin: 0 auto 24px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .profile-glow {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            background: rgba(255, 0, 60, 0.25);
-            filter: blur(15px);
-            animation: pulseGlow 2.5s infinite alternate ease-in-out;
-        }
-
-        @keyframes pulseGlow {
-            0% {
-                opacity: 0.4;
-                transform: scale(0.95);
-            }
-            100% {
-                opacity: 0.9;
-                transform: scale(1.08);
-            }
-        }
-
-        .rotating-ring-1 {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            background: conic-gradient(
-                from 0deg,
-                transparent 30%,
-                #ff003c 70%,
-                #ffffff 98%,
-                transparent 100%
-            );
-            animation: spinRing 2.2s linear infinite;
-        }
-
-        .rotating-ring-2 {
-            position: absolute;
-            width: calc(100% - 6px);
-            height: calc(100% - 6px);
-            border-radius: 50%;
-            background: conic-gradient(
-                from 180deg,
-                transparent 40%,
-                #ff3366 80%,
-                #ffffff 98%,
-                transparent 100%
-            );
-            animation: spinRingReverse 3.5s linear infinite;
-            opacity: 0.7;
-        }
-
-        @keyframes spinRing {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        @keyframes spinRingReverse {
-            0% { transform: rotate(360deg); }
-            100% { transform: rotate(0deg); }
-        }
-
-        .profile-inner-bg {
-            position: absolute;
-            width: calc(100% - 10px);
-            height: calc(100% - 10px);
-            background: #110712;
-            border-radius: 50%;
-            z-index: 1;
-        }
-
-        .profile-img {
-            width: calc(100% - 18px);
-            height: calc(100% - 18px);
-            border-radius: 50%;
-            object-fit: cover;
-            position: relative;
-            z-index: 2;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
-        }
-
-        /* Headline */
-        .title-wrapper {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            margin-bottom: 6px;
-        }
-
-        .title {
-            font-family: 'Cinzel', serif;
-            font-size: 25px;
-            font-weight: 900;
-            letter-spacing: 2px;
-            background: linear-gradient(
-                180deg,
-                #ffffff 0%,
-                #e0d5e3 100%
-            );
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
-        }
-
-        .verified-icon {
-            color: #0088cc;
-            font-size: 19px;
-            filter: drop-shadow(0 0 6px rgba(0, 136, 204, 0.8));
-        }
-
-        /* Subtitle */
-        .subtitle-box {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            margin-bottom: 26px;
-        }
-
-        .line {
-            height: 1px;
-            width: 25px;
-            background: linear-gradient(
-                90deg,
-                transparent,
-                rgba(255, 255, 255, 0.3),
-                transparent
-            );
-        }
-
-        .subtitle {
-            font-size: 10px;
-            color: #bfaec2;
-            letter-spacing: 2.5px;
-            text-transform: uppercase;
-            font-weight: 700;
-        }
-
-        /* Join Button */
-        .btn-wrapper {
-            margin-bottom: 24px;
-        }
-
-        .premium-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            background: linear-gradient(
-                135deg,
-                #ff0044 0%,
-                #cc0033 50%,
-                #990026 100%
-            );
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: 800;
-            letter-spacing: 1px;
-            padding: 13px 22px;
-            border-radius: 50px;
-            border: 1px solid rgba(255, 255, 255, 0.35);
-            position: relative;
-            overflow: hidden;
-            animation: bounceUpDown 2s ease-in-out infinite;
-            box-shadow:
-                0 10px 25px rgba(255, 0, 60, 0.5),
-                inset 0 1px 1px rgba(255, 255, 255, 0.4);
-        }
-
-        .telegram-blue-icon {
-            width: 32px;
-            height: 32px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #0088cc;
-            border-radius: 50%;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-            flex-shrink: 0;
-        }
-
-        .telegram-blue-icon svg {
-            width: 18px;
-            height: 18px;
-            fill: #ffffff;
-            transform: translate(-1px, 0);
-        }
-
-        @keyframes bounceUpDown {
-            0%, 100% {
-                transform: translateY(0);
-                box-shadow: 0 8px 22px rgba(255, 0, 60, 0.45);
-            }
-            50% {
-                transform: translateY(-9px);
-                box-shadow: 0 18px 32px rgba(255, 0, 60, 0.75);
-            }
-        }
-
-        /* Features */
-        .features {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 14px;
-            margin-bottom: 22px;
-            font-size: 11px;
-            color: #d8cbdc;
-            font-weight: 600;
-        }
-
-        .feature-item {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .dot {
-            height: 5px;
-            width: 5px;
-            background-color: #ff003c;
-            border-radius: 50%;
-            box-shadow: 0 0 6px #ff003c;
-        }
-
-        /* Managed By */
-        .managed-by {
-            font-size: 13px;
-            color: #ffffff;
-            font-weight: 600;
-            margin-bottom: 22px;
-            letter-spacing: 0.5px;
-        }
-
-        .managed-by span {
-            color: #ff335c;
-            font-weight: 800;
-        }
-
-        /* Disclaimer */
-        .divider {
-            border: none;
-            border-top: 1px dashed rgba(255, 255, 255, 0.12);
-            margin-bottom: 18px;
-        }
-
-        .disclaimer {
-            font-size: 10px;
-            color: #7a6a7e;
-            line-height: 1.5;
-            font-weight: 500;
-        }
-
-        .disclaimer strong {
-            color: #9e8d80;
-        }
-
-        /* Small Screen Support */
-        @media (max-width: 360px) {
-            .card {
-                padding: 30px 16px 24px;
-            }
-
-            .title {
-                font-size: 21px;
-                letter-spacing: 1px;
-            }
-
-            .features {
-                gap: 8px;
-                font-size: 9px;
-            }
-
-            .subtitle {
-                font-size: 9px;
-                letter-spacing: 1.5px;
-            }
-        }
-
-        /* Respect Reduced Motion Preferences */
-        @media (prefers-reduced-motion: reduce) {
-            .profile-glow,
-            .rotating-ring-1,
-            .rotating-ring-2,
-            .premium-btn {
-                animation: none;
-            }
-        }
-    </style>
     <!-- Meta Pixel Code -->
     <script>
     !function(f,b,e,v,n,t,s)
@@ -403,9 +47,414 @@
             style="display:none"
             src="https://www.facebook.com/tr?id=1110336888074400&ev=PageView&noscript=1"
             alt=""
-        />
+        >
     </noscript>
     <!-- End Meta Pixel Code -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            min-height: 100dvh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background:
+                radial-gradient(
+                    circle at 50% 25%,
+                    rgba(255, 0, 60, .18),
+                    transparent 60%
+                ),
+                radial-gradient(
+                    circle at 50% 85%,
+                    rgba(100, 0, 25, .12),
+                    transparent 50%
+                ),
+                #050204;
+        }
+
+        .card {
+            position: relative;
+            isolation: isolate;
+            overflow: hidden;
+            width: 100%;
+            max-width: 380px;
+            padding: 35px 24px 28px;
+            text-align: center;
+            border: 1px solid rgba(255, 0, 60, .28);
+            border-radius: 32px;
+            background: rgba(18, 10, 18, .94);
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            box-shadow:
+                0 25px 60px rgba(0, 0, 0, .85),
+                0 0 35px rgba(255, 0, 60, .13),
+                inset 0 1px 1px rgba(255, 255, 255, .12);
+        }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 15%;
+            right: 15%;
+            height: 2px;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                #ff003c,
+                #ff91a9,
+                #ff003c,
+                transparent
+            );
+            box-shadow: 0 0 14px #ff003c;
+        }
+
+        /* Profile Image */
+        .profile-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 145px;
+            height: 145px;
+            margin: 0 auto 24px;
+        }
+
+        .profile-glow {
+            position: absolute;
+            inset: 0;
+            border-radius: 50%;
+            background: rgba(255, 0, 60, .32);
+            filter: blur(18px);
+            animation: pulseGlow 2.5s ease-in-out infinite alternate;
+        }
+
+        .rotating-ring-1,
+        .rotating-ring-2 {
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .rotating-ring-1 {
+            inset: 0;
+            background: conic-gradient(
+                from 0deg,
+                transparent 30%,
+                #ff003c 70%,
+                #fff 98%,
+                transparent 100%
+            );
+            animation: spinRing 2.2s linear infinite;
+        }
+
+        .rotating-ring-2 {
+            inset: 3px;
+            background: conic-gradient(
+                from 180deg,
+                transparent 40%,
+                #ff3366 80%,
+                #fff 98%,
+                transparent 100%
+            );
+            opacity: .7;
+            animation: spinRing 3.5s linear infinite reverse;
+        }
+
+        .profile-inner-bg {
+            position: absolute;
+            inset: 5px;
+            border-radius: 50%;
+            background: #110712;
+            z-index: 1;
+        }
+
+        .profile-img {
+            position: relative;
+            z-index: 2;
+            width: calc(100% - 18px);
+            height: calc(100% - 18px);
+            object-fit: cover;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, .25);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, .6);
+        }
+
+        @keyframes pulseGlow {
+            from {
+                opacity: .4;
+                transform: scale(.95);
+            }
+            to {
+                opacity: .9;
+                transform: scale(1.08);
+            }
+        }
+
+        @keyframes spinRing {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Heading */
+        .title-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .title {
+            font-family: 'Cinzel', serif;
+            font-size: 25px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            color: #fff;
+            background: linear-gradient(
+                180deg,
+                #fff 0%,
+                #e0d5e3 100%
+            );
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 4px 10px rgba(0, 0, 0, .5));
+        }
+
+        .verified-icon {
+            flex-shrink: 0;
+            color: #0088cc;
+            font-size: 19px;
+            filter: drop-shadow(0 0 6px rgba(0, 136, 204, .7));
+        }
+
+        /* Subtitle */
+        .subtitle-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 28px;
+        }
+
+        .line {
+            width: 25px;
+            height: 1px;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(255, 255, 255, .4),
+                transparent
+            );
+        }
+
+        .subtitle {
+            color: #bfaec2;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Telegram Button */
+        .btn-wrapper {
+            margin-bottom: 25px;
+        }
+
+        .premium-btn {
+            position: relative;
+            isolation: isolate;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            min-height: 58px;
+            padding: 12px 20px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            border: 1px solid rgba(255, 255, 255, .4);
+            border-radius: 50px;
+            background: linear-gradient(
+                135deg,
+                #ff174b 0%,
+                #d00036 50%,
+                #920024 100%
+            );
+            box-shadow:
+                0 10px 25px rgba(255, 0, 60, .4),
+                inset 0 1px 1px rgba(255, 255, 255, .35);
+            animation: buttonFloat 2.5s ease-in-out infinite;
+            transition: filter .25s ease;
+        }
+
+        .premium-btn::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: -50%;
+            left: -80%;
+            width: 45%;
+            height: 200%;
+            transform: rotate(25deg);
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(255, 255, 255, .42),
+                transparent
+            );
+            animation: shine 3s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        .premium-btn:focus-visible {
+            outline: 3px solid #fff;
+            outline-offset: 4px;
+        }
+
+        .premium-btn:active {
+            filter: brightness(1.15);
+        }
+
+        .telegram-blue-icon {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: #0088cc;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+        }
+
+        .telegram-blue-icon svg {
+            width: 18px;
+            height: 18px;
+            fill: #fff;
+            transform: translate(-1px, 0);
+        }
+
+        @keyframes buttonFloat {
+            0%, 100% {
+                transform: translateY(0);
+                box-shadow: 0 8px 22px rgba(255, 0, 60, .4);
+            }
+            50% {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 30px rgba(255, 0, 60, .65);
+            }
+        }
+
+        @keyframes shine {
+            0%, 15% { left: -80%; }
+            55%, 100% { left: 140%; }
+        }
+
+        /* Features */
+        .features {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 23px;
+            color: #d8cbdc;
+            font-size: 10px;
+            font-weight: 600;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .dot {
+            width: 5px;
+            height: 5px;
+            flex-shrink: 0;
+            border-radius: 50%;
+            background: #ff174b;
+            box-shadow: 0 0 6px #ff174b;
+        }
+
+        /* Managed By */
+        .managed-by {
+            margin-bottom: 22px;
+            color: #fff;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .5px;
+        }
+
+        .managed-by span {
+            color: #ff476b;
+            font-weight: 800;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px dashed rgba(255, 255, 255, .15);
+            margin-bottom: 18px;
+        }
+
+        .disclaimer {
+            color: #8b7c8e;
+            font-size: 10px;
+            font-weight: 500;
+            line-height: 1.7;
+        }
+
+        .disclaimer strong {
+            color: #b4a39a;
+        }
+
+        @media (max-width: 360px) {
+            body { padding: 12px; }
+
+            .card {
+                padding: 30px 16px 24px;
+                border-radius: 26px;
+            }
+
+            .title {
+                font-size: 21px;
+                letter-spacing: 1px;
+            }
+
+            .subtitle {
+                font-size: 9px;
+                letter-spacing: 1.2px;
+            }
+
+            .features {
+                gap: 9px;
+                font-size: 9px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *,
+            *::before,
+            *::after {
+                animation: none !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -423,12 +472,14 @@
                 src="https://d1yei2z3i6k35z.cloudfront.net/18503587/6abfb398c04fa6.00717341_10484.png"
                 alt="PAYAL ARMY"
                 class="profile-img"
+                width="127"
+                height="127"
             >
         </div>
 
         <!-- Headline -->
         <div class="title-wrapper">
-            <h1 class="title">PAYAL ARMY </h1>
+            <h1 class="title">PAYAL ARMY</h1>
             <i class="fa-solid fa-circle-check verified-icon"
                aria-hidden="true"></i>
         </div>
@@ -449,11 +500,11 @@
                 rel="noopener noreferrer"
                 class="premium-btn"
             >
-                <div class="telegram-blue-icon">
-                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                <span class="telegram-blue-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24">
                         <path d="M9.78 18.65l.28-4.2 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
                     </svg>
-                </div>
+                </span>
                 <span>JOIN TELEGRAM</span>
             </a>
         </div>
@@ -493,7 +544,7 @@
 
     </main>
 
-    <!-- Automatic Telegram Link Rotation -->
+    <!-- Telegram Link Rotation -->
     <script>
     (() => {
         const links = [
@@ -504,12 +555,15 @@
 
         const button = document.getElementById("telegramJoinButton");
 
-        if (!button) return;
+        if (!button || links.length === 0) return;
 
         let index = 0;
+
         button.href = links[index];
 
-        setInterval(() => {
+        // Rotate the destination every 3 seconds.
+        // This does not create a new Meta Pixel event.
+        window.setInterval(() => {
             index = (index + 1) % links.length;
             button.href = links[index];
         }, 3000);

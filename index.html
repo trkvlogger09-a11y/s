@@ -135,21 +135,13 @@
         }
 
         @keyframes spinRing {
-            0% {
-                transform: rotate(0deg);
-            }
-            100% {
-                transform: rotate(360deg);
-            }
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
 
         @keyframes spinRingReverse {
-            0% {
-                transform: rotate(360deg);
-            }
-            100% {
-                transform: rotate(0deg);
-            }
+            0% { transform: rotate(360deg); }
+            100% { transform: rotate(0deg); }
         }
 
         .profile-inner-bg {
@@ -262,7 +254,6 @@
                 inset 0 1px 1px rgba(255, 255, 255, 0.4);
         }
 
-        /* Telegram Icon */
         .telegram-blue-icon {
             width: 32px;
             height: 32px;
@@ -402,7 +393,7 @@
     }(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
 
-    fbq('init', '1110336888074400');
+    fbq('init', '2157448211474716');
     fbq('track', 'PageView');
     </script>
 
@@ -411,12 +402,11 @@
             height="1"
             width="1"
             style="display:none"
-            src="https://www.facebook.com/tr?id=1110336888074400&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=2157448211474716&ev=PageView&noscript=1"
             alt=""
         />
     </noscript>
     <!-- End Meta Pixel Code -->
-
 </head>
 
 <body>
@@ -454,7 +444,8 @@
         <!-- Telegram Join Button -->
         <div class="btn-wrapper">
             <a
-                href="https://t.me/+_tBhbTRdV-JlNjMx"
+                id="telegramJoinButton"
+                href="https://t.me/+GsoWAyGUD2AwM2Vh"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="premium-btn"
@@ -464,7 +455,6 @@
                         <path d="M9.78 18.65l.28-4.2 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
                     </svg>
                 </div>
-
                 <span>JOIN TELEGRAM</span>
             </a>
         </div>
@@ -503,6 +493,29 @@
         </p>
 
     </main>
+
+    <!-- Automatic Telegram Link Rotation -->
+    <script>
+    (() => {
+        const links = [
+            "https://t.me/+GsoWAyGUD2AwM2Vh",
+            "https://t.me/+-T8dDRPBB0g5ZDAx",
+            "https://t.me/+_tBhbTRdV-JlNjMx"
+        ];
+
+        const button = document.getElementById("telegramJoinButton");
+
+        if (!button) return;
+
+        let index = 0;
+        button.href = links[index];
+
+        setInterval(() => {
+            index = (index + 1) % links.length;
+            button.href = links[index];
+        }, 3000);
+    })();
+    </script>
 
 </body>
 </html>
